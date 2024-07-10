@@ -44,10 +44,10 @@ The project consists of a single C++ source file (`main.cpp`) that contains the 
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/your-username/library-management-system.git
+   git clone https://github.com/kknani24/library-management-system.git
    ```
 
-   Replace `your-username` with your actual GitHub username. This will create a directory named `library-management-system`.
+ 
 
 2. **Navigate to the Project Directory**
 
