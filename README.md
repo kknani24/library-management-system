@@ -1,5 +1,9 @@
 # README - Library Management System
 
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![File I/O](https://img.shields.io/badge/File%20I%2FO-005571?style=for-the-badge)
+![OOP](https://img.shields.io/badge/OOP-FF6F00?style=for-the-badge)
+
 ## Introduction
 
 The Library Management System is a console-based application developed in C++. It offers a range of features to manage a library's collection of books, including adding, deleting, editing, searching, viewing, and saving books.
@@ -42,37 +46,27 @@ The project consists of a single C++ source file (`main.cpp`) that contains the 
 ### Steps
 
 1. **Clone the Repository**
-
    ```sh
    git clone https://github.com/kknani24/library-management-system.git
    ```
 
- 
-
 2. **Navigate to the Project Directory**
-
    ```sh
    cd library-management-system
    ```
 
 3. **Build the Application**
-
    Compile the source code using a C++ compiler. For example, with `g++`:
-
    ```sh
    g++ -o library_management main.cpp
    ```
-
    This command compiles `main.cpp` and creates an executable named `library_management`.
 
 4. **Run the Application**
-
    Execute the compiled application:
-
    ```sh
    ./library_management
    ```
-
    This will start the Library Management System, and the main menu will be displayed.
 
 ## Example Commands
@@ -87,3 +81,11 @@ $ ./library_management
 ## Conclusion
 
 The Library Management System provides a user-friendly interface for managing a collection of books in a library. By following the steps outlined in this README, users can easily set up and use the application to perform various library management tasks.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
