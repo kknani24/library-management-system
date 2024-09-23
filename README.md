@@ -72,7 +72,7 @@ The project consists of a single C++ source file (`main.cpp`) that contains the 
 ## Example Commands
 
 ```sh
-$ git clone https://github.com/your-username/library-management-system.git
+$ git clone https://github.com/kknani24/library-management-system.git
 $ cd library-management-system
 $ g++ -o library_management main.cpp
 $ ./library_management
