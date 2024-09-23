@@ -34,7 +34,43 @@ The project consists of a single C++ source file (`main.cpp`) that contains the 
 - **Book Class**: Represents a book and includes attributes like ISBN, title, author, edition, and publication. It provides methods to access and modify these attributes.
 - **Function Prototypes**: Define operations such as adding, deleting, editing, searching, viewing, saving, and loading books.
 - **Main Function**: Implements the main loop of the application, displaying a menu and handling user input to perform various operations.
+## System Flow
+The following flow chart illustrates the main functionalities of the Library Management System:
 
+```mermaid
+graph TD
+    A[Start] --> B[Main Menu]
+    B --> C{User Choice}
+    C -->|1| D[Add Book]
+    C -->|2| E[Delete Book]
+    C -->|3| F[Edit Book]
+    C -->|4| G[Search Book]
+    C -->|5| H[View All Books]
+    C -->|6| I[Save to File]
+    C -->|7| J[Load from File]
+    C -->|8| K[Total Books Count]
+    C -->|9| L[Search by Title]
+    C -->|10| M[Sort Books by Title]
+    C -->|11| N[Filter Books by Author]
+    C -->|12| O[Filter Books by Edition]
+    C -->|13| P[Delete All Books]
+    C -->|14| Q[Edit All Books]
+    C -->|15| R[Exit]
+    D --> B
+    E --> B
+    F --> B
+    G --> B
+    H --> B
+    I --> B
+    J --> B
+    K --> B
+    L --> B
+    M --> B
+    N --> B
+    O --> B
+    P --> B
+    Q --> B
+    R --> S[End]
 ## Usage Instructions
 
 ### Prerequisites
